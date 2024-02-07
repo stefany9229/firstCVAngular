@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+    
+  }
+
+#contenedor{
+    padding:0 28vw; /* Ajusta este valor según necesites */
+  text-align: center; 
+
+
+}
+  
+  header {
+    
+   
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
+  .about-me{
+    background-color: #4278be;   
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Image and Credits */
+   img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 600%;
+    max-width: 30vh;
+    height: auto;
+  }
+  
+ 
+  .image-credit {
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
+  /* Details Section */
+
+ 
+  
+  .social-links {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .social-link {
+    color: blue;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #393a3a;
+    text-align: center; /* Esto centra el texto horizontalmente */
+    color: white; /* Esto cambia el color del texto a blanco */
+    height: 6vw;
+    display: flex; /* Usa flexbox para centrar el contenido */
+    justify-content: center; /* Centra el contenido horizontalmente en flexbox */
+    align-items: center; /* Centra el contenido verticalmente en flexbox */
+    margin-top: 2vh;
+  }
+ 
